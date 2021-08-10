@@ -6,16 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Minions Speak </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar">
-
-
+        Minions speak
     </div>
+    <center>
+        <div class="container">
+            <form>
+                <textarea class="textbox" name="english" id="english" placeholder="Write a message to be converted into the Minions language."></textarea>
+            </form>
+            <button onclick="readBanana(english.value)"> Translate into Banana &#128071; </button>
+            <div class="textbox" id="output">
 
+            </div>
+        </div>
+    </center>
+    <script type="text/javascript" src="./main.js"></script>
 
 </body>
 
